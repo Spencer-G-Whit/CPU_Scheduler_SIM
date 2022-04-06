@@ -1,10 +1,11 @@
 #ifndef PCB_h
 #define PCB_h
-
+//Main file
 class PCB {
-    int PID;
-    int PC;
-    enum State {ready};
+    private:
+        int PID;
+        int PC;
+        enum State {begin, ready, };
 
     PCB();
     
