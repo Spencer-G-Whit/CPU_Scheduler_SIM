@@ -1,10 +1,20 @@
 #include "../CPU_Scheduler_SIM/headers/PCB.h"
 //Main file
+
+PCB::PCB()
+{
+    s = state::begin;
+    
+}
+
 int PCB::getPID()
 { return this->PID; }
 
 int PCB::getPC()
 { return this->PC; }
 
-PCB::State PCB::getState()
-{ return this->PCB::State; }
+state PCB::getState()
+{ return this->s; }
+
+void PCB::setState(state st)
+{ this->PCB::s = st; }
