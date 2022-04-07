@@ -8,11 +8,11 @@ class PCB {
         int PID;
         int PC;
         state s;
-
-    PCB();
-    
     
     public:
+        PCB(int pid, state st);
+        PCB();
+        
         //methods to get and set pid values
         int getPID();
         void setPID(int PID);
@@ -20,6 +20,7 @@ class PCB {
         //methods to get and set pc values
         int getPC();
         void setPC(int PC);
+        void incPC();
 
         //methods to get and set state (enum value)
         state getState();

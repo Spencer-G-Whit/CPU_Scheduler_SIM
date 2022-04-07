@@ -1,7 +1,6 @@
 #ifndef datafile_h
 #define datafile_h
 
-#include <iostream>
 #include <vector>
 
 class DataFile {
