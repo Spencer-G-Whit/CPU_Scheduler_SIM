@@ -1,0 +1,4 @@
+PID # 0 Arrival Time: 5 CPU Burst: 2 I/O Burst: 2 CPU Burst: 3 I/O Burst: 3 CPU Burst: 2 I/O Burst: 2 I/O Burst: 4
+PID # 1 Arrival Time: 9 CPU Burst: 3 I/O Burst: 4 CPU Burst: 1 I/O Burst: 4 CPU Burst: 2 I/O Burst: 4 CPU Burst: 3 I/O Burst: 4 CPU Burst: 3 I/O Burst: 2
+PID # 2 Arrival Time: 5 CPU Burst: 1 I/O Burst: 2 CPU Burst: 3 I/O Burst: 3 CPU Burst: 4 I/O Burst: 4 CPU Burst: 4
+PID # 3 Arrival Time: 5 CPU Burst: 4 I/O Burst: 4 CPU Burst: 3 I/O Burst: 3 CPU Burst: 4 I/O Burst: 1 CPU Burst: 3 I/O Burst: 1 CPU Burst: 4 I/O Burst: 2

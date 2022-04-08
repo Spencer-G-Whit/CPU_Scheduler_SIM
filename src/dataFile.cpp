@@ -18,7 +18,7 @@ DataFile::DataFile(){
     this->arrivalTime = -1;
     this->cpuBurst;
     this->ioBurst;
-    this->s = state::begin;
+    this->s = begin;
 }
 // PID getter/setter
 int DataFile::getPID(){ 
